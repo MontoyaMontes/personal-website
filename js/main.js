@@ -100,10 +100,16 @@ window.addEventListener('scroll', scrollHeader)
 
 function scrollUp(){
 	const scrollUp = document.getElementById('scroll-up');
-	if (560 <= this.scrollY)
+	if (530 <= this.scrollY){
 		scrollUp.classList.add('show-scroll');
-	else
+		scrollUp.classList.remove('hidden-scroll');
+
+	}
+	else{
 		scrollUp.classList.remove('show-scroll');
+		scrollUp.classList.add('hidden-scroll');
+
+	}
 }
 
 window.addEventListener('scroll', scrollUp)

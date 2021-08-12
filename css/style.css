@@ -696,13 +696,17 @@ img{
 	background-color: var(--first-color-alt);
 }
 
-.scrollup__icon{
+.scroll-up__icon{
 	font-size: 1.5rem;
 	color: #FFF;
 }
 
 .show-scroll{
 	bottom: 5rem;
+}
+
+.hidden-scroll{
+	display: none;
 }
 
 /*============ SCROLL BAR ============*/
@@ -721,6 +725,7 @@ img{
 ::webkit-scrollbar-thumb:hover{
 	background-color: var(--text-color-light);
 }
+
 
 /*============ MEDIA QUERIES ============*/
 
@@ -786,7 +791,7 @@ img{
 	}
 
 	.section{
-		padding: 6rem 0 2rem;
+		padding: 6rem 2rem 2rem;
 	}
 
 	.section__subtitle{
@@ -894,7 +899,8 @@ img{
 
 @media screen and (min-width 1024px){
 	.header, .main, .footer__container{
-		padding: 0;
+		padding: 0 20rem;
+		margin-left: 100px;
 	}
 
 	.home__blob{
