@@ -451,27 +451,28 @@
 				</div>				
 			</div>
 			
-			<form action="" class="contact__form grid">
+			<form action="php/mail.php" method="post" class="contact__form grid">
 				<div class="contact__inputs grid">
 					<div class="contact__content">
-						<label for="" class="contact__label">Nombre</label>
+						<label for="cont_name" class="contact__label">Nombre</label>
 						<input type="text" class="contact__input">
 					</div>
 					<div class="contact__content">
-						<label for="" class="contact__label">Email</label>
+						<label for="cont_email" class="contact__label">Email</label>
 						<input type="email" class="contact__input">
 					</div>
 				</div>
 				<div class="contact__content">
-					<label for="" class="contact__label">Asunto</label>
+					<label for="cont_sub" class="contact__label">Asunto</label>
 					<input type="text" class="contact__input">
 				</div>
 				<div class="contact__content">
-					<label for="" class="contact__label">Mensage</label>
+					<label for="cont_message" class="contact__label">Mensage</label>
 					<textarea name="" id="" cols="0" rows="7" class="contact__input"></textarea>
 				</div>
+
 				<div>
-					<a href="#" class="button button--flex"> 
+					<a type="submit" href="#contact" class="button button--flex"> 
 					Enviar mensaje
 					<i class="uil uil-message button__icon"></i>
 				</a>
