@@ -590,7 +590,9 @@ img{
 
 /*============ MESSAGE ============*/
 
-
+.contact__form{
+	display: none;
+}
 .contact__container{
 	row-gap:  3rem;
 }
