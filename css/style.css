@@ -892,7 +892,7 @@ img{
 	}
 
 	.about__img{
-		width: 350px;
+		width: 300px;
 	}
 
 	.about__description{
@@ -901,6 +901,11 @@ img{
 
 	.about__info{
 		justify-content: space-between;
+	}
+	
+	.about__info-title ,.about__info-name{
+		display: block;
+		text-align: left;
 	}
 
 	.about__buttons{
